@@ -13,7 +13,8 @@ def calculate_grade(score):
         (90, 100): 'A',
         (70, 89): 'B',
         (60, 69): 'C',
-        (50, 59): 'D'
+        (50, 59): 'D',
+        (40, 30): 'F'
     }
 
     for range_, grade in grade_ranges.items():
